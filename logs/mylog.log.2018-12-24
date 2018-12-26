@@ -1,0 +1,32 @@
+2018-12-24 10:07:21.625 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15h4m31s948ms275µs710ns).
+2018-12-24 11:40:34.446 [main] INFO  com.myl.test.springbootstudy.SpringbootstudyApplication - Starting SpringbootstudyApplication on M705USRA with PID 9256 (D:\mayanli\Code\springbootstudy\target\classes started by ma.yanli in D:\mayanli\Code\springbootstudy)
+2018-12-24 11:40:34.449 [main] INFO  com.myl.test.springbootstudy.SpringbootstudyApplication - No active profile set, falling back to default profiles: default
+2018-12-24 11:40:35.034 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.myl.test.springbootstudy]' package. Please check your configuration.
+2018-12-24 11:40:35.244 [main] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ca0d508f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 11:40:35.462 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8999 (http)
+2018-12-24 11:40:35.478 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 11:40:35.478 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-24 11:40:35.483 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Users\ma.yanli\AppData\Local\Programs\Python\Python35;C:\Program Files\Git\cmd;C:\Program Files\Git\usr\bin;C:\Program Files\Apache\apache-maven-3.5.4\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Mysql\mysql-5.7.23-winx64\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\OpenVPN\bin;C:\Users\ma.yanli\AppData\Local\Programs\Python\Python35\Scripts;C:\Program Files\nodejs\;C:\Program Files (x86)\GitExtensions\;C:\Users\ma.yanli\AppData\Local\Microsoft\WindowsApps;;C:\Users\ma.yanli\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ma.yanli\AppData\Roaming\npm;.]
+2018-12-24 11:40:35.571 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 11:40:35.571 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1087 ms
+2018-12-24 11:40:36.036 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-24 11:40:36.153 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2018-12-24 11:40:36.162 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2018-12-24 11:40:36.170 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2018-12-24 11:40:36.309 [main] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: myGetListUsingGET_1
+2018-12-24 11:40:36.312 [main] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: myGetListUsingGET_2
+2018-12-24 11:40:36.314 [main] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: myGetListUsingGET_3
+2018-12-24 11:40:36.316 [main] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: myGetListUsingGET_4
+2018-12-24 11:40:36.320 [main] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: myGetListUsingGET_5
+2018-12-24 11:40:36.322 [main] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: myGetListUsingGET_6
+2018-12-24 11:40:36.324 [main] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: myGetListUsingGET_7
+2018-12-24 11:40:36.363 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8999 (http) with context path ''
+2018-12-24 11:40:36.366 [main] INFO  com.myl.test.springbootstudy.SpringbootstudyApplication - Started SpringbootstudyApplication in 2.221 seconds (JVM running for 2.896)
+2018-12-24 11:40:44.220 [http-nio-8999-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-24 11:40:44.220 [http-nio-8999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-24 11:40:44.226 [http-nio-8999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2018-12-24 11:40:47.598 [http-nio-8999-exec-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-12-24 11:40:47.598 [http-nio-8999-exec-9] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2018-12-24 11:40:47.663 [http-nio-8999-exec-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-12-24 13:28:45.307 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45m27s467ms169µs812ns).
+2018-12-24 19:57:33.022 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=27m46s477ms884µs846ns).

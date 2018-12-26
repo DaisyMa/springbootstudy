@@ -1,0 +1,76 @@
+2018-12-25 10:03:22.639 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12h15m18s209ms554µs158ns).
+2018-12-25 15:26:44.386 [main] INFO  com.myl.test.springbootstudy.SpringbootstudyApplication - Starting SpringbootstudyApplication on M705USRA with PID 9796 (D:\mayanli\Code\springbootstudy\target\classes started by ma.yanli in D:\mayanli\Code\springbootstudy)
+2018-12-25 15:26:44.389 [main] INFO  com.myl.test.springbootstudy.SpringbootstudyApplication - No active profile set, falling back to default profiles: default
+2018-12-25 15:26:45.029 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.myl.test.springbootstudy]' package. Please check your configuration.
+2018-12-25 15:26:45.225 [main] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$36aa5503] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25 15:26:45.475 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8999 (http)
+2018-12-25 15:26:45.490 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-25 15:26:45.490 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-25 15:26:45.494 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Users\ma.yanli\AppData\Local\Programs\Python\Python35;C:\Program Files\Git\cmd;C:\Program Files\Git\usr\bin;C:\Program Files\Apache\apache-maven-3.5.4\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Mysql\mysql-5.7.23-winx64\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\OpenVPN\bin;C:\Users\ma.yanli\AppData\Local\Programs\Python\Python35\Scripts;C:\Program Files\nodejs\;C:\Program Files (x86)\GitExtensions\;C:\Users\ma.yanli\AppData\Local\Microsoft\WindowsApps;;C:\Users\ma.yanli\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ma.yanli\AppData\Roaming\npm;.]
+2018-12-25 15:26:45.573 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-25 15:26:45.574 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1149 ms
+2018-12-25 15:26:46.131 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-25 15:26:46.257 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2018-12-25 15:26:46.268 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2018-12-25 15:26:46.276 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2018-12-25 15:26:46.419 [main] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: myGetListUsingGET_1
+2018-12-25 15:26:46.421 [main] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: myGetListUsingGET_2
+2018-12-25 15:26:46.423 [main] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: myGetListUsingGET_3
+2018-12-25 15:26:46.425 [main] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: myGetListUsingGET_4
+2018-12-25 15:26:46.427 [main] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: myGetListUsingGET_5
+2018-12-25 15:26:46.429 [main] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: myGetListUsingGET_6
+2018-12-25 15:26:46.431 [main] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: myGetListUsingGET_7
+2018-12-25 15:26:46.467 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8999 (http) with context path ''
+2018-12-25 15:26:46.476 [main] INFO  com.myl.test.springbootstudy.SpringbootstudyApplication - Started SpringbootstudyApplication in 2.478 seconds (JVM running for 3.315)
+2018-12-25 15:27:04.096 [http-nio-8999-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-25 15:27:04.097 [http-nio-8999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-25 15:27:04.103 [http-nio-8999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2018-12-25 15:27:16.337 [http-nio-8999-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-12-25 15:27:16.338 [http-nio-8999-exec-2] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2018-12-25 15:27:16.402 [http-nio-8999-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-12-25 16:36:01.233 [main] INFO  com.myl.test.springbootstudy.SpringbootstudyApplication - Starting SpringbootstudyApplication on M705USRA with PID 13808 (D:\mayanli\Code\springbootstudy\target\classes started by ma.yanli in D:\mayanli\Code\springbootstudy)
+2018-12-25 16:36:01.236 [main] INFO  com.myl.test.springbootstudy.SpringbootstudyApplication - No active profile set, falling back to default profiles: default
+2018-12-25 16:36:01.866 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.myl.test.springbootstudy]' package. Please check your configuration.
+2018-12-25 16:36:02.049 [main] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a1bf9561] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25 16:36:02.279 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8999 (http)
+2018-12-25 16:36:02.294 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-25 16:36:02.294 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-25 16:36:02.298 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Users\ma.yanli\AppData\Local\Programs\Python\Python35;C:\Program Files\Git\cmd;C:\Program Files\Git\usr\bin;C:\Program Files\Apache\apache-maven-3.5.4\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Mysql\mysql-5.7.23-winx64\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\OpenVPN\bin;C:\Users\ma.yanli\AppData\Local\Programs\Python\Python35\Scripts;C:\Program Files\nodejs\;C:\Program Files (x86)\GitExtensions\;C:\Users\ma.yanli\AppData\Local\Microsoft\WindowsApps;;C:\Users\ma.yanli\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ma.yanli\AppData\Roaming\npm;.]
+2018-12-25 16:36:02.374 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-25 16:36:02.374 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1108 ms
+2018-12-25 16:36:02.934 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-25 16:36:03.057 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2018-12-25 16:36:03.070 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2018-12-25 16:36:03.078 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2018-12-25 16:36:03.228 [main] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: myGetListUsingGET_1
+2018-12-25 16:36:03.231 [main] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: myGetListUsingGET_2
+2018-12-25 16:36:03.233 [main] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: myGetListUsingGET_3
+2018-12-25 16:36:03.235 [main] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: myGetListUsingGET_4
+2018-12-25 16:36:03.237 [main] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: myGetListUsingGET_5
+2018-12-25 16:36:03.239 [main] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: myGetListUsingGET_6
+2018-12-25 16:36:03.241 [main] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: myGetListUsingGET_7
+2018-12-25 16:36:03.276 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8999 (http) with context path ''
+2018-12-25 16:36:03.279 [main] INFO  com.myl.test.springbootstudy.SpringbootstudyApplication - Started SpringbootstudyApplication in 2.373 seconds (JVM running for 3.364)
+2018-12-25 16:36:36.741 [http-nio-8999-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-25 16:36:36.741 [http-nio-8999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-25 16:36:36.748 [http-nio-8999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2018-12-25 17:01:19.808 [http-nio-8999-exec-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-12-25 17:01:19.810 [http-nio-8999-exec-7] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2018-12-25 17:01:19.872 [http-nio-8999-exec-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-12-25 17:14:33.647 [main] INFO  com.myl.test.springbootstudy.SpringbootstudyApplicationTests - Starting SpringbootstudyApplicationTests on M705USRA with PID 3732 (started by ma.yanli in D:\mayanli\Code\springbootstudy)
+2018-12-25 17:14:33.648 [main] INFO  com.myl.test.springbootstudy.SpringbootstudyApplicationTests - No active profile set, falling back to default profiles: default
+2018-12-25 17:14:34.326 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.myl.test.springbootstudy]' package. Please check your configuration.
+2018-12-25 17:14:34.627 [main] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8d5d9963] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25 17:14:35.604 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-25 17:14:35.863 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2018-12-25 17:14:35.880 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2018-12-25 17:14:35.889 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2018-12-25 17:14:36.086 [main] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: myGetListUsingGET_1
+2018-12-25 17:14:36.088 [main] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: myGetListUsingGET_2
+2018-12-25 17:14:36.091 [main] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: myGetListUsingGET_3
+2018-12-25 17:14:36.093 [main] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: myGetListUsingGET_4
+2018-12-25 17:14:36.095 [main] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: myGetListUsingGET_5
+2018-12-25 17:14:36.098 [main] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: myGetListUsingGET_6
+2018-12-25 17:14:36.101 [main] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: myGetListUsingGET_7
+2018-12-25 17:14:36.127 [main] INFO  com.myl.test.springbootstudy.SpringbootstudyApplicationTests - Started SpringbootstudyApplicationTests in 2.707 seconds (JVM running for 3.495)
+2018-12-25 17:14:36.308 [Thread-2] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
