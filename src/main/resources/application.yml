@@ -10,7 +10,7 @@ spring:
     name: myTest
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/testdb?serverTimezone=UTC
+    url: jdbc:mysql://172.16.30.172:3306/testdb?serverTimezone=UTC
     username: root
     password: 123456
 
